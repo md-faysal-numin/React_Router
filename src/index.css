@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.navbar {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em 8%;
+}
+.navbar ul {
+  padding: 10px 30px;
+  border-radius: 30px;
+  box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.1);
+}
+
+.navbar ul li {
+  display: inline-block;
+  padding: 5px 10px;
+  margin: 0 10px;
+  /* color: #000; */
+}
+.navbar ul li .nav-link.active {
+  color: red;
+}
+
+.navbar button {
+  background: #000;
+  color: white;
+  padding: 12px 25px;
+  border: none;
+  outline: none;
+  border-radius: 30px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 80vh;
+}
+.container h1 {
+  font-size: 8rem;
+  font-weight: bolder;
+}
+.contact-btns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding-bottom: 2.8rem;
+  gap: 1.2rem;
+  /* outline: 1px solid red; */
+}
+
+.jobs {
+  padding: 40px 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.jobs a {
+  flex: 1;
+  text-decoration: none;
+  padding: 0.8rem;
+  background: #efefef;
+  color: #000;
+}
+.job-details {
+  padding: 3.5rem 0;
+}
+.job-details p {
+  max-width: 50%;
+  padding: 10px 0;
+}
+.job-details button {
+  background-color: #000;
+  color: white;
+  border: none;
+  outline: 0;
+  padding: 5px 10px;
+  margin-top: 10px;
+  cursor: pointer;
+}
