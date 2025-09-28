@@ -18,4 +18,4 @@ If you are developing a production application, we recommend using TypeScript wi
 ## Use command
 
 Before run the app give this command:
-React_Router/src/assets
+React_Router/src/assets $ npx json-server --watch data.json --port 5000
